@@ -1,0 +1,137 @@
+@font-face {
+    font-family: game;
+    src: url(PressStart2P-Regular.ttf);
+}
+*{
+    font-family: game;
+    margin: 0;
+    padding: 0;
+    color: rgb(221, 220, 220);
+}
+#body{
+    background-color: black;
+    height: 100vh;
+}
+#again {
+    text-align: center;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#again p{
+    background-color: rgb(221, 220, 220);
+    color: black;
+    text-align: center;
+    padding: 1.4vh 2.3vw;
+    font-size: 2vw;
+    text-decoration: none;  
+}
+#again p:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+#header{
+    margin: 2.2% 0;
+    text-align: center;
+
+}
+#header #main{
+    font-size: 3.5vw;
+}
+#header  #sub{
+    margin-top: 1%;
+    font-size: 1vw; 
+    display: flex;
+    justify-content: center;
+}
+hr#hr1{
+    
+    border: 2px solid black;
+    width: 70vw;
+    margin: 0 auto;
+}
+#msg{
+    margin-top: 1.5%;
+    text-align: center;
+    font-size: 1.5vw; 
+    color: rgb(251, 218, 176);
+}
+#boxes{
+    margin-top: 2.9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+#boxes .box{
+    border: 4px solid rgb(153, 153, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19vh;
+    width: 21vh;
+    font-size: 7vh;
+    text-align: center;
+}
+
+#boxes #guess{
+    background-color: rgb(40, 39, 39);
+}
+#boxes #guess:focus{
+    border:4px solid rgb(0, 0, 0);
+}
+#check {
+    margin-top: 1.5%;
+    text-align: center;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#check p{
+    background-color: rgb(221, 220, 220);
+    color: black;
+    text-align: center;
+    padding: 1.4vh 2.3vw;
+    font-size: 2vw;
+    text-decoration: none;  
+}
+#check p:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+hr#hr2{
+    
+    border: 2px solid black;
+    width: 60vw;
+    margin: 0 auto;
+}
+#scores{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#scores #score{
+    margin-top: 2%;
+
+}
+#scores #high{
+    margin-top: 1%;
+
+}
+#mainBox{
+    background-color: rgb(40, 39, 39);
+    margin: 0 20vw;
+    padding: 5vh 0;    
+}
+.bgGreen{
+    background-color: rgb(99, 149, 25);
+}
+.bgRed{
+    background-color: rgb(165, 61, 45);
+}
