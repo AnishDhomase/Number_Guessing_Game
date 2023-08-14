@@ -46,17 +46,16 @@
     display: flex;
     justify-content: center;
 }
-hr#hr1{
-    
-    border: 2px solid black;
-    width: 70vw;
-    margin: 0 auto;
-}
 #msg{
     margin-top: 1.5%;
     text-align: center;
     font-size: 1.5vw; 
     color: rgb(251, 218, 176);
+}
+#mainBox{
+    background-color: rgb(40, 39, 39);
+    margin: 0 20vw;
+    padding: 5vh 0;    
 }
 #boxes{
     margin-top: 2.9%;
@@ -103,12 +102,6 @@ hr#hr1{
     opacity: 0.9;
     cursor: pointer;
 }
-hr#hr2{
-    
-    border: 2px solid black;
-    width: 60vw;
-    margin: 0 auto;
-}
 #scores{
     margin-top: 2%;
     display: flex;
@@ -124,14 +117,62 @@ hr#hr2{
     margin-top: 1%;
 
 }
-#mainBox{
-    background-color: rgb(40, 39, 39);
-    margin: 0 20vw;
-    padding: 5vh 0;    
-}
+
 .bgGreen{
     background-color: rgb(99, 149, 25);
 }
 .bgRed{
     background-color: rgb(165, 61, 45);
+}
+
+@media (max-width : 600px){
+    #again {
+        height: 15vh; 
+    }
+    #again p{
+        padding: 1.4vh 2.6vw;
+        font-size: 4vh; 
+    }
+    #header{
+        margin: 2.2% 0;
+    
+    }
+    #header #main{
+        font-size: 3.5vh;
+        line-height: 1.5;
+    }
+    #header  #sub{
+        margin-top: 1%;
+        font-size: 1.5vh; 
+        display: flex;
+        justify-content: center;
+    }
+    #mainBox{
+        margin: 0 2vw;
+        padding: 5vh 0;    
+    }
+    #msg{
+        margin-top: 1.5%;
+        font-size: 2vh; 
+    }
+    #check {
+        height: 15vh; 
+    }
+    #check p{
+        padding: 1.4vh 2.6vw;
+        font-size: 4vh; 
+    }
+}
+@media (max-width : 320px){
+    #boxes .box{
+        height: 40vw;
+        width: 42vw;
+        font-size: 7vh;
+        text-align: center;
+    }
+    #scores{
+       font-size: 5.5vw;
+    }
+    
+   
 }
